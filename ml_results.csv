@@ -1,0 +1,13 @@
+test,dataset,model,auc_mean,auc_sd,n
+within_dataset,BNCI2014_004,LogisticRegression,0.7642857142857142,0.18844151368961315,45
+within_dataset,BNCI2014_004,GradientBoosting,0.6464285714285715,0.2052872551885702,45
+within_dataset,Cho2017,LogisticRegression,0.5822222222222222,0.1688888888888889,52
+within_dataset,Cho2017,GradientBoosting,0.3377777777777778,0.26120329342071313,52
+within_dataset,Liu2024,LogisticRegression,0.7142857142857143,0.23904572186687872,50
+within_dataset,Liu2024,GradientBoosting,0.6761904761904762,0.1060526545300957,50
+within_dataset,PhysionetMI,LogisticRegression,0.8305882352941175,0.09784176194561726,108
+within_dataset,PhysionetMI,GradientBoosting,0.8402941176470587,0.15104480418727523,108
+cross_population,healthy→stroke,LogisticRegression,0.8647619047619048,0.0,50
+cross_population,healthy→stroke,GradientBoosting,0.9161904761904762,0.0,50
+temporal_generalization,BCI-IV-2b,LogisticRegression,0.2,0.0,9
+temporal_generalization,BCI-IV-2b,GradientBoosting,0.30000000000000004,0.0,9
