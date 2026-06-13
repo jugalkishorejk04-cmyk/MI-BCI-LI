@@ -38,7 +38,8 @@ All datasets are accessed via MOABB v1.5. Raw EEG is not redistributed here.
 - `Figure1.png`–`Figure7.png`
 
 ## Environment
-Python 3.12, MOABB 1.5, MNE 1.12, scikit-learn 1.9, pandas, scipy.
+Python 3.12. Install all dependencies with:
+   `py -3.12 -m pip install -r requirements.txt`
 
 ## Status
 Draft under internal review. Not peer-reviewed.
